@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "807BF91729E72ED9004D1ACB"
-               BuildableName = "Parallel Programming"
-               BlueprintName = "Parallel Programming"
-               ReferencedContainer = "container:Parallel programming.xcodeproj">
+               BuildableName = "parallel-programming"
+               BlueprintName = "parallel-programming"
+               ReferencedContainer = "container:parallel-programming.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -45,9 +45,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "807BF91729E72ED9004D1ACB"
-            BuildableName = "Parallel Programming"
-            BlueprintName = "Parallel Programming"
-            ReferencedContainer = "container:Parallel programming.xcodeproj">
+            BuildableName = "parallel-programming"
+            BlueprintName = "parallel-programming"
+            ReferencedContainer = "container:parallel-programming.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "807BF91729E72ED9004D1ACB"
-            BuildableName = "Parallel Programming"
-            BlueprintName = "Parallel Programming"
-            ReferencedContainer = "container:Parallel programming.xcodeproj">
+            BuildableName = "parallel-programming"
+            BlueprintName = "parallel-programming"
+            ReferencedContainer = "container:parallel-programming.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		807BF91C29E72ED9004D1ACB /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807BF91B29E72ED9004D1ACB /* main.swift */; };
 		807BF92329E7363D004D1ACB /* RCOND.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807BF92229E7363D004D1ACB /* RCOND.swift */; };
+		807BF92629E73B5A004D1ACB /* RFIX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807BF92529E73B5A004D1ACB /* RFIX.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,9 +25,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		807BF91829E72ED9004D1ACB /* Parallel Programming */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Parallel Programming"; sourceTree = BUILT_PRODUCTS_DIR; };
+		807BF91829E72ED9004D1ACB /* parallel-programming */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "parallel-programming"; sourceTree = BUILT_PRODUCTS_DIR; };
 		807BF91B29E72ED9004D1ACB /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		807BF92229E7363D004D1ACB /* RCOND.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RCOND.swift; sourceTree = "<group>"; };
+		807BF92529E73B5A004D1ACB /* RFIX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RFIX.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,7 +45,7 @@
 		807BF90F29E72ED9004D1ACB = {
 			isa = PBXGroup;
 			children = (
-				807BF91A29E72ED9004D1ACB /* Parallel Programming */,
+				807BF91A29E72ED9004D1ACB /* parallel-programming */,
 				807BF91929E72ED9004D1ACB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,34 +53,35 @@
 		807BF91929E72ED9004D1ACB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				807BF91829E72ED9004D1ACB /* Parallel Programming */,
+				807BF91829E72ED9004D1ACB /* parallel-programming */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		807BF91A29E72ED9004D1ACB /* Parallel Programming */ = {
+		807BF91A29E72ED9004D1ACB /* parallel-programming */ = {
 			isa = PBXGroup;
 			children = (
-				807BF92429E7375A004D1ACB /* Labs */,
+				807BF92429E7375A004D1ACB /* labs */,
 				807BF91B29E72ED9004D1ACB /* main.swift */,
 			);
-			path = "Parallel Programming";
+			path = "parallel-programming";
 			sourceTree = "<group>";
 		};
-		807BF92429E7375A004D1ACB /* Labs */ = {
+		807BF92429E7375A004D1ACB /* labs */ = {
 			isa = PBXGroup;
 			children = (
 				807BF92229E7363D004D1ACB /* RCOND.swift */,
+				807BF92529E73B5A004D1ACB /* RFIX.swift */,
 			);
-			path = Labs;
+			path = labs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		807BF91729E72ED9004D1ACB /* Parallel Programming */ = {
+		807BF91729E72ED9004D1ACB /* parallel-programming */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 807BF91F29E72ED9004D1ACB /* Build configuration list for PBXNativeTarget "Parallel Programming" */;
+			buildConfigurationList = 807BF91F29E72ED9004D1ACB /* Build configuration list for PBXNativeTarget "parallel-programming" */;
 			buildPhases = (
 				807BF91429E72ED9004D1ACB /* Sources */,
 				807BF91529E72ED9004D1ACB /* Frameworks */,
@@ -88,9 +91,9 @@
 			);
 			dependencies = (
 			);
-			name = "Parallel Programming";
+			name = "parallel-programming";
 			productName = "Parallel programming";
-			productReference = 807BF91829E72ED9004D1ACB /* Parallel Programming */;
+			productReference = 807BF91829E72ED9004D1ACB /* parallel-programming */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -108,7 +111,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 807BF91329E72ED9004D1ACB /* Build configuration list for PBXProject "Parallel Programming" */;
+			buildConfigurationList = 807BF91329E72ED9004D1ACB /* Build configuration list for PBXProject "parallel-programming" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -121,7 +124,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				807BF91729E72ED9004D1ACB /* Parallel Programming */,
+				807BF91729E72ED9004D1ACB /* parallel-programming */,
 			);
 		};
 /* End PBXProject section */
@@ -131,6 +134,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				807BF92629E73B5A004D1ACB /* RFIX.swift in Sources */,
 				807BF92329E7363D004D1ACB /* RCOND.swift in Sources */,
 				807BF91C29E72ED9004D1ACB /* main.swift in Sources */,
 			);
@@ -277,7 +281,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		807BF91329E72ED9004D1ACB /* Build configuration list for PBXProject "Parallel Programming" */ = {
+		807BF91329E72ED9004D1ACB /* Build configuration list for PBXProject "parallel-programming" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				807BF91D29E72ED9004D1ACB /* Debug */,
@@ -286,7 +290,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		807BF91F29E72ED9004D1ACB /* Build configuration list for PBXNativeTarget "Parallel Programming" */ = {
+		807BF91F29E72ED9004D1ACB /* Build configuration list for PBXNativeTarget "parallel-programming" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				807BF92029E72ED9004D1ACB /* Debug */,

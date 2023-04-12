@@ -1,17 +1,11 @@
-//
-//  RCOND.swift
-//  Parallel programming
-//
-//  Created by Eugene Ned on 12.04.2023.
-//
-
+// Lab 1
 import Foundation
 
 class RCOND {
-    private var balance = 100
+    var balance = 100
 
-    private let queue1 = DispatchQueue(label: "Queue1", attributes: .concurrent)
-    private let queue2 = DispatchQueue(label: "Queue2", attributes: .concurrent)
+    private let queue1 = DispatchQueue(label: "AsyncQueue1", attributes: .concurrent)
+    private let queue2 = DispatchQueue(label: "AsyncQueue2", attributes: .concurrent)
     
     func initiateRaceCondition() {
         queue1.async {
@@ -24,7 +18,7 @@ class RCOND {
         runLoop()
     }
 
-    private func withdraw(amount: Int, threadNum: Int) {
+    func withdraw(amount: Int, threadNum: Int) {
         if balance >= amount {
             print("[Thread-\(threadNum)] Withdrawing \(amount)USD from balance")
             balance -= amount
