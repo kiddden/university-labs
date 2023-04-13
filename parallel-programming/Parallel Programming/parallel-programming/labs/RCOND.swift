@@ -1,4 +1,6 @@
+//
 // Lab 1
+//
 import Foundation
 
 class RCOND {
@@ -15,7 +17,7 @@ class RCOND {
         queue2.async {
             self.withdraw(amount: 70, threadNum: 2)
         }
-        runLoop()
+        RunLoop.main.run(until: Date(timeIntervalSinceNow: 5))
     }
 
     func withdraw(amount: Int, threadNum: Int) {
@@ -29,10 +31,10 @@ class RCOND {
     }
 
     // Helper function that keeps our threads alive
-    private func runLoop() {
-        let timer = Timer.scheduledTimer(withTimeInterval: 1, repeats: false) { _ in }
-        let runLoop = RunLoop.current
-        runLoop.add(timer, forMode: .common)
-        runLoop.run()
-    }
+//    private func runLoop() {
+//        let timer = Timer.scheduledTimer(withTimeInterval: 1, repeats: false) { _ in }
+//        let runLoop = RunLoop.current
+//        runLoop.add(timer, forMode: .common)
+//        runLoop.run()
+//    }
 }
