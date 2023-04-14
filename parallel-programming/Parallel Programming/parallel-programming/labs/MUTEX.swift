@@ -4,7 +4,7 @@
 
 import Foundation
 
-class MutexRCOND: RCOND {
+class MUTEX: RCOND {
     private let lock = NSLock()
 
     override func withdraw(amount: Int, threadNum: Int) {
