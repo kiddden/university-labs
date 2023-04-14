@@ -4,7 +4,6 @@
 import Foundation
 
 class EVENT {
-    // Ключове значення для ідентифікації події
     private let ipcEventName = Notification.Name("com.example.ipcEvent")
 
     private let listener: EventListener
@@ -22,7 +21,6 @@ class EVENT {
     }
 }
 
-// Створюємо клас, який буде слухати подію
 class EventListener {
     
     init(eventName: Notification.Name) {
@@ -38,7 +36,6 @@ class EventListener {
     }
 }
 
-// Створюємо клас, який буде надсилати подію
 class EventSender {
     func sendIPCEvent(_ eventName: Notification.Name) {
         let data: [String: String] = ["message": "Hello, IPC Event!"]

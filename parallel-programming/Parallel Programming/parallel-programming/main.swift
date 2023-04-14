@@ -10,8 +10,8 @@
 //rfixLab.initiateRaceCondition()
 
 // lab 3
-//let event = EVENT()
-//event.sendEvent()
+let event = EVENT()
+event.sendEvent()
 //
 // lab 4
 //let semaphore = SEM()
