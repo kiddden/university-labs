@@ -1,11 +1,12 @@
-# Project Title: Modified Nearest Neighbor Classifier on Iris Dataset
+# Lab Name: Real Estate Prices in Kyiv
 
-## Task Description
+## Description
+In this lab, we will explore real estate prices in Kyiv by reading data from an Excel file, calculating the average price for each station, and plotting the results on a graph. We will use the pandas and matplotlib libraries in Python for data analysis and visualization.
 
-The goal of this lab is to implement a modified Nearest Neighbor classifier on the Iris dataset. The classifier will use cosine distance as a similarity measure, and the implementation should not use any external libraries such as sklearn. The classifier will be trained and tested using a holdout approach, with a train-test split of 90%-10%.
 ## Project Structure
-- **Data**: The dataset used in this project is the well-known Iris dataset. It contains 150 samples of iris flowers with 4 features (sepal length, sepal width, petal length, and petal width) and 3 classes (Setosa, Versicolor, and Virginica). The dataset is available in a CSV file named `iris.csv`.
 
-- **Implementation**: The implementation of the modified Nearest Neighbor classifier is provided in a Python script named `lab2.py`. It includes functions for data preprocessing, training, and testing the classifier, as well as calculating its accuracy.
+### Data
+The data used in this lab is stored in an Excel file named `dataset.xlsx`. It contains information about real estate prices for different stations in Kyiv.
 
-- **Results**: The accuracy of the classifier is calculated and displayed as a percentage.
+### Implementation
+The implementation of the lab is provided in a Python script named `real_estate.py`. The script reads the data from the Excel file, calculates the mean price for each station using the pandas library, and plots the results on a graph using the matplotlib library.
