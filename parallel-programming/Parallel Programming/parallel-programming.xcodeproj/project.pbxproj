@@ -10,6 +10,7 @@
 		807BF91C29E72ED9004D1ACB /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807BF91B29E72ED9004D1ACB /* main.swift */; };
 		807BF92329E7363D004D1ACB /* RCOND.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807BF92229E7363D004D1ACB /* RCOND.swift */; };
 		807BF92629E73B5A004D1ACB /* RFIX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807BF92529E73B5A004D1ACB /* RFIX.swift */; };
+		80C331732A16A59300AF34ED /* SIGNALS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C331722A16A59300AF34ED /* SIGNALS.swift */; };
 		80E8D41D29E885F0004FCA9E /* EVENT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E8D41C29E885F0004FCA9E /* EVENT.swift */; };
 		80E8D41F29E888B1004FCA9E /* SEM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E8D41E29E888B1004FCA9E /* SEM.swift */; };
 		80E8D42129E88DE5004FCA9E /* MUTEX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E8D42029E88DE5004FCA9E /* MUTEX.swift */; };
@@ -32,6 +33,7 @@
 		807BF91B29E72ED9004D1ACB /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		807BF92229E7363D004D1ACB /* RCOND.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RCOND.swift; sourceTree = "<group>"; };
 		807BF92529E73B5A004D1ACB /* RFIX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RFIX.swift; sourceTree = "<group>"; };
+		80C331722A16A59300AF34ED /* SIGNALS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SIGNALS.swift; sourceTree = "<group>"; };
 		80E8D41C29E885F0004FCA9E /* EVENT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EVENT.swift; sourceTree = "<group>"; };
 		80E8D41E29E888B1004FCA9E /* SEM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SEM.swift; sourceTree = "<group>"; };
 		80E8D42029E88DE5004FCA9E /* MUTEX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUTEX.swift; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 				80E8D41C29E885F0004FCA9E /* EVENT.swift */,
 				80E8D41E29E888B1004FCA9E /* SEM.swift */,
 				80E8D42029E88DE5004FCA9E /* MUTEX.swift */,
+				80C331722A16A59300AF34ED /* SIGNALS.swift */,
 			);
 			path = labs;
 			sourceTree = "<group>";
@@ -144,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				80E8D41D29E885F0004FCA9E /* EVENT.swift in Sources */,
+				80C331732A16A59300AF34ED /* SIGNALS.swift in Sources */,
 				80E8D41F29E888B1004FCA9E /* SEM.swift in Sources */,
 				807BF92629E73B5A004D1ACB /* RFIX.swift in Sources */,
 				80E8D42129E88DE5004FCA9E /* MUTEX.swift in Sources */,

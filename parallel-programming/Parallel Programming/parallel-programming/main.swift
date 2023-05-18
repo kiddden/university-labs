@@ -10,13 +10,17 @@
 //rfixLab.initiateRaceCondition()
 
 // lab 3
-let event = EVENT()
-event.sendEvent()
+//let event = EVENT()
+//event.sendEvent()
 //
 // lab 4
 //let semaphore = SEM()
 //semaphore.initiateRaceCondition()
 
 // lab 5
-let mutex = MUTEX()
-mutex.initiateRaceCondition()
+//let mutex = MUTEX()
+//mutex.initiateRaceCondition()
+
+// lab 6
+let signals = SIGNALS()
+signals.start()
