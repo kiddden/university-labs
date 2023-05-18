@@ -11,7 +11,7 @@ class SIGNALS {
 
     func start() {
         signal(SIGINT) { signal in
-            print("received")
+            print(" - received")
             exit(0)
         }
         

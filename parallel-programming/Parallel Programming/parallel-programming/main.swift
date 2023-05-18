@@ -22,5 +22,10 @@
 //mutex.initiateRaceCondition()
 
 // lab 6
-let signals = SIGNALS()
+let signals = SIGNALS() /*
+                         Run main from the terminal using command to make it working:
+                         swiftc labs/SIGNALS.swift main.swift -o output
+                         ./output
+                         
+                         */
 signals.start()
